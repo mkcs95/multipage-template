@@ -1,0 +1,98 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+/*These are the links to import the Bootstrap and fonts*/
+
+body {
+	background: url(../img/background.jpg);
+	background-color: white;
+}
+
+section {
+	background-color: white;
+	box-sizing: border-box;
+}
+
+#fact1 {
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    padding: 1em;
+    border: 3em; 
+}
+
+
+#fact4 {
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
+#fact2 {
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    border: 3em;
+    background-color: white;
+}
+
+#fact3 {
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 7em;
+}
+
+svg {
+	height: 30px;
+	display: block;
+    margin: 0 auto;
+    border: 6em;
+    margin-top: 2em;
+}
+
+#seattle {
+	height: 400px;
+	width: 400px;
+	display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    
+}
+
+#NewYork {
+	height: 500px;
+	width: 650px;
+	display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+#family {
+	padding-top: 4em;
+}
+
+#uw {
+	display: block;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.bottom {
+	background-color: white;
+	border-top: 3px solid #D87E28;
+	padding: 1em;
+	text-align: center;
+}
+.bottom span{
+	font-size: 12px;
+}
+
+#credits, #credits a {
+	font-size: 12px;
+}

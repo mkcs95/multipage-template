@@ -1,0 +1,39 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		
+		<title>Katrina's Portfolio</title>
+		<!--These are the links for the CSS and pictures/icon -->
+		<link rel="stylesheet" href="css/content.css">
+	</head>
+
+	<body>
+		<h2>Projects</h2>
+		<div class = "projects">
+			<li ng-repeat="content in contents">
+				<div>{{content.Project}}</div>
+			</li>
+		</div>
+
+		<h2>Accomplishments</h2>
+		<div id = "accomplishments">
+			<li ng-repeat="content in contents">
+				<div>{{content.Accomplishment}}</div>
+			</li>
+		</div>
+
+		<br />
+		<br />
+
+		<div class="row col-md-12" id="accomp2">
+			<img src="../img/BC.jpg" class="col-md-4" id="BC">
+			<img src="../img/USHLI.png" class="col-md-4" id="ushli">
+			<img src="../img/SOCC_15.png" class="col-md-4" id="socc">
+		</div>
+
+
+	</body>
+
+</html> 

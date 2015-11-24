@@ -1,0 +1,41 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+/*These are the links to import the Bootstrap and fonts*/
+
+h2 {
+	text-align: center;
+	background-color: #F5D0A9;
+}
+
+body .projects {
+	list-style-type: none;
+	text-align: center;
+}
+
+body #accomplishments {
+	list-style-type: none;
+	text-align: center;
+}
+
+#BC {
+	width: 350px;
+	height: 350px;
+}
+
+.bottom {
+	background-color: white;
+	border-top: 3px solid #D87E28;
+	padding: 1em;
+	text-align: center;
+}
+.bottom span{
+	font-size: 12px;
+}
+
+#credits, #credits a {
+	font-size: 12px;
+}
+
+
